@@ -288,7 +288,7 @@
     .DeFiCard { margin: 0 2% 0 0; padding: 2% 8%;}
 
     /* Tokens */
-    .tokenCard { margin: 2% 0 1.5% 0; }
+    .tokenCard { margin: 1% 0; padding: 4% 0; }
     .desktop { display: none; }
     .assetLogo { width: 5%; padding: 0 2%; }
     .assetName { width: 23%; padding: 0 2%; }
