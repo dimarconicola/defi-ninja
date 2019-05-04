@@ -285,7 +285,7 @@
     .topAddress { display: none; }
 
     /* Cards */
-    .DeFiCard { margin: 0 2% 0 0; padding: 2% 8%;}
+    .DeFiCard { width: 84%; margin: 0 2% 0 0; padding: 2% 8%;}
 
     /* Tokens */
     .tokenCard { margin: 1% 0; padding: 4% 0; }
