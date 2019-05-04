@@ -46,7 +46,7 @@
 
 .walletContainer {
     width: 92%;
-    padding: 1% 4% 0 4%;
+    padding: 3% 4% 1% 4%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -208,7 +208,7 @@
 
 .tokenContainer {
     width: 92%;
-    padding: 4%;
+    padding: 1% 4%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -218,7 +218,7 @@
 .tokenCard {
     width: 100%;
     padding: 2% 0;
-    margin: 0.5% 0;
+    margin: 1% 0 0.5% 0;
     display: flex;
     flex-direction: row;
     font-size: var(--text-prettysmall);
@@ -281,10 +281,14 @@
 
 @media (max-width: 800px) {
 
+    /* Wallets */
+    .topAddress { display: none; }
+
     /* Cards */
     .DeFiCard { margin: 0 2% 0 0; padding: 2% 8%;}
 
     /* Tokens */
+    .tokenCard { margin: 2% 0 1.5% 0; }
     .desktop { display: none; }
     .assetLogo { width: 5%; padding: 0 2%; }
     .assetName { width: 23%; padding: 0 2%; }
