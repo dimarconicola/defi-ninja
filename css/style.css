@@ -301,11 +301,19 @@
 
 @media (max-width: 450px) {
 
+    /* TOP */
+    /* .yourBalanceTitle { display: none; } */
+
+    .walletLogo {
+        margin-right: 10px;
+    }
+
     /* Tokens */
     .assetName { display: none; }
     .assetLogo { width: 5%; padding: 0 4%; }
     .assetAmount { width: 41%; padding: 0 4%; }
     .assetValue { width: 46%; padding: 0 4%; }
         
+
 
 }
